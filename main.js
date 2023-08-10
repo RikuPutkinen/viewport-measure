@@ -10,8 +10,8 @@ window.addEventListener('resize', () => {
 updateSizes();
 
 function updateSizes() {
-  horizontalBar.textContent = `${horizontalBar.clientWidth} px`;
-  verticalBar.textContent = `${verticalBar.clientHeight} px`;
+  horizontalBar.firstChild.textContent = `${horizontalBar.clientWidth} px`;
+  verticalBar.firstChild.textContent = `${verticalBar.clientHeight} px`;
   container.querySelector('.width').textContent = `Width: ${body.clientWidth} px`;
   container.querySelector('.height').textContent = `Height: ${body.clientHeight} px`;
 }

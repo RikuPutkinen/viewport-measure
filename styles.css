@@ -26,7 +26,7 @@ body {
 .vertical {
   height: 100%;
   width: 2rem;
-  writing-mode: sideways-lr;
+  writing-mode: vertical-lr;
 }
 
 .container {
